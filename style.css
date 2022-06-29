@@ -15,22 +15,56 @@ body, h1, h2, h3, h4, h5, h6, p, li, a {
 }
 h1 {
   font-family: 'Roboto Mono', monospace;
+  color: #f6ff00;
+}
+h2, h3, h4, h5, h6 {
+  color: #ff0000;
 }
 /* Make about.html page split into two columns */
 .column-left {
   float: left;
-  width: 45%;
-  padding: 10px;
+  width: 30%;
+  padding: 20px;
 }
 .column-right {
   float: right;
+  width: 30%;
+  padding: 20px;
+}
+/* column center */
+.column-center {
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 20px;
+}
+.left {
+  /* left column */
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
   width: 45%;
-  padding: 10px;
+  padding: 20px;
+  margin-top: 0;
+
+}
+.right {
+  /* right column */
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+  width: 45%;
+  padding: 20px;
+  margin-top: 0;
 }
 /* Footer is at the bottom of the page and is centered */
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  /* Center text */
   text-align: center;
+  color: whitesmoke;
+  font-family: 'Roboto Mono', monospace;
 }
