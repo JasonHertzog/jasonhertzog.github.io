@@ -12,6 +12,8 @@ body, h1, h2, h3, h4, h5, h6, p, li, a {
   color: whitesmoke;
   /* Center text */
   text-align: center;
+  /* Increasing size a little bit, because I like bigger text */
+  font-size: 120%;
 }
 h1 {
   font-family: 'Roboto Mono', monospace;
@@ -116,6 +118,29 @@ h2, h3, h4, h5, h6 {
     border: 4px solid #f6ff00;
     border-radius: 5px;
   }
+}
+/* Tutoring Page Styling */
+.tutoring-container {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  width: 96%;
+  border: 4px solid #f6ff00;
+  border-radius: 5px;
+  padding: 2%;
+}
+.expectations-container {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  width: 96%;
+  border: 4px solid #ff0000;
+  border-radius: 5px;
+  padding: 2%;
+}
+.free-tutoring {
+  background-color: #00ff005e;
+  border: 4px solid #0080ff;
 }
 
 /* If on mobile, make all content centered in one column */
